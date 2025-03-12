@@ -46,11 +46,11 @@ The conversion is based on character mapping tries that efficiently handle the t
 The core components are:
 
 - `AvroConverter`: Main class that handles bidirectional conversion
-
+Note: The package uses slightly modified Avro mapping for better reversibility.
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.8+
 
 ## License
 
