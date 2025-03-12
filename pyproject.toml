@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MapAvro"
+version = "0.1.6"
+description = "A package for converting Bengali text to Avro and vice versa."
+readme = "README.md"
+authors = [{name = "Shahriar Kabir Nahin"}]
+license = {file = "LICENSE"}
+keywords = ["Bengali", "Avro", "Romanized Bengali", "Bengali Romanization", "Bangla"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research"
+]
+dependencies = [
+    "bnunicodenormalizer"
+]
+requires-python = ">=3.8"
+
+
+[project.urls]
+"Homepage" = "https://github.com/SKNahin/MapAvro"
+"Bug Tracker" = "https://github.com/SKNahin/MapAvro/issues"
+"Documentation" = "https://github.com/SKNahin/MapAvro/blob/main/README.md"
+
+[tool.setuptools]
+packages = ["MapAvro","MapAvro.utils"]

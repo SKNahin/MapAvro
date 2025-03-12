@@ -1,0 +1,4 @@
+/dist
+/MapAvro.egg-info
+/MapAvro/__pycache__
+/MapAvro/utils/__pycache__
